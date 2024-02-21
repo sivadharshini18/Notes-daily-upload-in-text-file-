@@ -1,0 +1,50 @@
+RAM- Randaom Access Memory
+       It is a primary memory storage.
+       secondary memory -non volatile memory
+       Static RAM is is faster than Dynamic RAM
+Types of RAM:
+      SRAM-made of flip flop
+      DRAM-made of capacitors
+      It is volatile memory
+ARM:
+  cortext A- Appplication
+  cortex R- Real time Application
+  cortext M- Microcontroller(process only)
+CPU- knows only addition
+Bus- Used to communicate between CPU up computer (median)
+Pheripherals:
+Ex
+1)GPIO - It is used to communicate the outside environment
+2)UART
+3)I2C
+4)SPI
+The pheripherals are travel by System Bus.
+GPIO(Genral Purpose Input Output)
+    It is used to read digital signal
+    Issuing interrupts
+    Generating triggers for external components
+
+GPIO PIN:
+  value consists of one of two voltage setting we can program each PIN
+GPIO PORT:
+   Many pin Join together is called port
+Multiplexing:
+   We can act pin as GPIO,SPI ect is called multiplexing
+IC floating State:
+    you not pretric the level is high or low
+    It is used to stable the pull up or pull down
+GPIO Output mode:
+     open drain state
+     It is always show Zero
+     when the tansistor is on the pin is pulled to the ground
+     when the transistor is off push pull configuration
+  To access the GPIO a port we have to activate the clock 
+    0- led will not glow
+    1- led glow
+    ODR - Output Data Register
+
+
+
+
+     
+     
